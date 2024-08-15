@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="TestNG.TestNGListener"/>
+    </listeners>
+    <test name="TestNG">
+        <classes>
+            <class name="TestNG.Demo"/>
+        </classes>
+    </test>
+</suite>
+
