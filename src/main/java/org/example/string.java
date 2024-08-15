@@ -19,7 +19,7 @@ public class string {
     }
 
     public static void reverseStringexceptsecondchar(){
-        String s = "Independence";
+        String s = "Independance";
         String reverse="";
         reverse = reverse+s.charAt(s.length()-1);
         for (int i=s.length()-3; i>=1 ;i--){
