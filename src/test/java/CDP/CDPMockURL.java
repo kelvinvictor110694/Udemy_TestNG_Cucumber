@@ -29,6 +29,6 @@ public class CDPMockURL {
         driver.get("https://rahulshettyacademy.com/angularAppdemo/");
         Thread.sleep(3000);
         driver.findElement(By.cssSelector(".btn-primary")).click();
-        
+
     }
 }
