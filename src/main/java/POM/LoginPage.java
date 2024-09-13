@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.sql.*;
 import java.util.Properties;
 
 public class LoginPage extends WaitTime {
@@ -47,5 +48,15 @@ public class LoginPage extends WaitTime {
     public String getIncorrectError(){
         explicitWaitDisplayed(loginError);
         return loginError.getText();
+    }
+
+    public void mySQl() throws SQLException {
+        Connection connection = DriverManager.getConnection("","","");
+        Statement statement = connection.createStatement();
+        ResultSet resultSet = statement.executeQuery("");
+        resultSet.next();
+        String value = resultSet.getString("");
+
+
     }
 }

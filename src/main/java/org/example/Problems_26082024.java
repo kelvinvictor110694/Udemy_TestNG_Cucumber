@@ -8,6 +8,7 @@ public class Problems_26082024 {
         fibonacci();
         factorial();
         primeNumber();
+        primeNumbervalues();
     }
 
     public static void reverseString() {
@@ -56,7 +57,7 @@ public class Problems_26082024 {
         int primenumber = 16;
         int count =0;
 
-        if (primenumber >1){
+        if (primenumber >=1){
             for (int i =1;i<=primenumber;i++){
                 if (primenumber%i == 0){
                     count++;
@@ -71,6 +72,25 @@ public class Problems_26082024 {
         else {
             System.out.println("Not a prime no");
         }
+    }
+
+    public static void primeNumbervalues(){
+        System.out.println("*************");
+        int primenumber = 4;
+        int count =0;
+
+        for (int i =1;i<=primenumber;i++){
+            if (primenumber % i == 0){
+                count++;
+                continue;
+            }
+
+
+        }
+        if (count == 2){
+            System.out.println();
+        }
+
     }
 }
 
