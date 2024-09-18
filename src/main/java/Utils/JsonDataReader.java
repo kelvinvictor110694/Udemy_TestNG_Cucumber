@@ -16,7 +16,7 @@ public class JsonDataReader{
         String filepath = FileUtils.readFileToString(new File(System.getProperty("user.dir") + "/src/main/resources/data.json"));
         //Use Object mapper to convert String to List using JacksonBind
         ObjectMapper objmp = new ObjectMapper();
-        List<HashMap<String, String>> data = objmp.readValue(filepath, new TypeReference<List<HashMap<String,String>>>() {
+        List<HashMap<String,String>> data = objmp.readValue(filepath, new TypeReference<List<HashMap<String,String>>>() {
         });
         return data;
     }

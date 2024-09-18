@@ -19,4 +19,5 @@ public class palindrome {
         else
             System.out.println("not a palindrome");
     }
+
 }

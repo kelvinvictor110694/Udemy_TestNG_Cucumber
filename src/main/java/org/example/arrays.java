@@ -12,10 +12,12 @@ public class arrays {
         String[] name ={"kelvin","victor"};
         List<String> b= Arrays.asList(name);
         b.contains("victor");*/
-        arrays array = new arrays();
+        /*arrays array = new arrays();
         array.split();
         equals();
-        merge();
+        merge();*/
+        repetativeElements();
+        missingNo();
 
     }
 
@@ -43,9 +45,29 @@ public class arrays {
         List<Integer> b1 = Arrays.stream(b).boxed().collect(Collectors.toList());
         List<Integer> merge = Stream.concat(a1.stream(),b1.stream()).sorted().collect(Collectors.toList());
         System.out.println(merge.toString());
+    }
 
+    public static void repetativeElements(){
+        int a[]= {10,20,30,40,50,30,30};
+        int element = 30;
+        int counter =0;
+        for (int i =0;i<a.length;i++){
+            if (a[i]==element){
+                counter++;
+            }
+        }
+        System.out.println(counter);
+    }
 
-
+    public static void missingNo(){
+        int a[]={1,4,5,3};
+        int size =10;
+        List<Integer> a1 = Arrays.stream(a).boxed().collect(Collectors.toList());
+        for (int i =1;i<size;i++){
+            if (!a1.contains(i)){
+                System.out.println(i);
+            }
+        }
     }
 }
 
