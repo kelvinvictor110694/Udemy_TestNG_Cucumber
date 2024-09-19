@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class Pavan_Problems_2 {
     public static void main(String[] args) {
-        duplicateelemtsinArray();
+        reverseEachWordInString();
     }
     public static void checkArrayEqual (){
         int a1[] = {3,5,63,4,66};
@@ -37,7 +37,46 @@ public class Pavan_Problems_2 {
         System.out.println("min value "+a1[a1.length-1]);
     }
     public static void duplicateelemtsinArray(){
-        int a1[] = {99,3,5,3,63,4,66};
-        
+        int a[] = {99,3,5,3,63,66,4,66};
+        for (int i = 0; i<a.length-1;i++){
+            for (int j = i+1;j<a.length;j++){
+                if (a[i] == a[j])
+                    System.out.println(a[i]);
+            }
+        }
+    }
+    public static void removeJunkSplchar(){
+        String s = "qpweibgfoiwq740tyq9ty4q!@#$Y*&(^%&0y0udsgabdigb";
+        System.out.println(s.replaceAll("[^a-zA-Z]",""));
+    }
+    public static void removeWhiteSpace(){
+        String s = "Java     Programming     Selenium     Automation";
+        System.out.println(s.replaceAll(" ",""));
+    }
+    public static void occuranceOfChar(){
+        String s = "Java Programming Java Oops";
+        int count = 0;
+        for (int i =0;i<s.length();i++){
+            if (s.charAt(i)=='a')
+                count++;
+        }
+        System.out.println(count);
+    }
+    public static void wordsInAString(){
+        String s = "Java Programming Java Oops";
+        String[] s1 = s.split(" ");
+        System.out.println(s1.length);
+    }
+    public static void reverseEachWordInString() {
+        String s = "Java Programming Java Oops";
+        String reverse = "";
+        String[] s1 = s.split(" ");
+        for (int i = 0; i < s1.length; i++) {
+            for (int j = s1[i].length()-1; j >= 0; j--) {
+                reverse = reverse + s1[i].charAt(j);
+            }
+            reverse = reverse + " ";
+        }
+        System.out.println(reverse);
     }
 }
