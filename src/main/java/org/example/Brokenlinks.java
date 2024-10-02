@@ -1,6 +1,7 @@
 package org.example;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,11 +14,13 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.List;
+import java.util.Set;
 
 public class Brokenlinks {
     public static void main(String[] args) throws IOException {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
+
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
         SoftAssert softAssert = new SoftAssert();
         List<WebElement> element = driver.findElements(By.xpath("//div[@id='gf-BIG'] //a"));

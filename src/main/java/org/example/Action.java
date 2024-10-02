@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+import java.awt.*;
+
 public class Action {
     public static void main(String[] args) {
 
@@ -28,6 +30,5 @@ public class Action {
 
         //Right click
         action.moveToElement(accounts).contextClick().build().perform();
-
     }
 }

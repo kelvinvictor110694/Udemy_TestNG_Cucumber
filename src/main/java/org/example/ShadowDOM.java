@@ -9,6 +9,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class ShadowDOM {
+
+    private static ShadowDOM sd;
+    private ShadowDOM(){}
+    public static void getInstance(){
+        if (sd ==null){
+            sd = new ShadowDOM();
+        }
+    }
+
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -20,3 +29,4 @@ public class ShadowDOM {
         driver.close();
     }
 }
+
