@@ -6,11 +6,11 @@ import java.util.stream.Collectors;
 public class ParanthesisProblem {
 
     public static void main(String[] args) {
-        //boolean value = balancedParanthesis();
-        //System.out.println(value);
-        uniquearraylsit();
+        boolean value = balancedParanthesis();
+        System.out.println(value);
+        //uniquearraylsit();
     }
-    public static boolean balancedParanthesis() {
+    public static boolean balancedParanthesis(){
         Scanner sc = new Scanner(System.in);
         String str =  sc.next();//"{([])}";
 
@@ -22,7 +22,6 @@ public class ParanthesisProblem {
             }
             if (stack.isEmpty()){
                 return false;
-
             }
             char check;
             switch (str.charAt(i)){

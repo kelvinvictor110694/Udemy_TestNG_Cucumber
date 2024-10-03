@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 public class LinkedInProblems {
     public static void main(String[] args) {
-        moveNegativeNosToStart();
+        luckyInteger();
     }
     public static void ReverseString() {
         String s = "welcome";
@@ -371,5 +371,21 @@ public class LinkedInProblems {
         int a[] ={1, 2, -3, 4, -4, -5};
         Arrays.sort(a);
         System.out.println(Arrays.toString(a));
+    }
+    public static void luckyInteger(){
+        int[] a ={2,2,3,3,3,4};
+        List li = new ArrayList<>();
+        for (int i =0;i<a.length;i++){
+            int count =1;
+            if (!li.contains(a[i])){
+                li.add(a[i]);
+                for (int j =i+1;j<a.length;j++){
+                    if (a[i] == a[j])
+                        count++;
+                }
+                if (count == a[i])
+                    System.out.println(a[i]+" is a lucky no");
+            }
+        }
     }
 }
