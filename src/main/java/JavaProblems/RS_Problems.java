@@ -1,11 +1,8 @@
 package JavaProblems;
 
-import org.apache.commons.math3.analysis.function.Max;
 
 import java.text.SimpleDateFormat;
-import java.time.Month;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class RS_Problems {
     public static void main(String[] args) {
@@ -124,13 +121,15 @@ public class RS_Problems {
         hm.put("Germany","Berlin");
 
         List<String> l1 = new ArrayList<>(hm.keySet());
-        for (int i =0;i< l1.size();i++){
+        System.out.println(l1);
+        /*for (int i =0;i< l1.size();i++){
             System.out.println(l1.get(i));
-        }
+        }*/
         List<String> l2 = new ArrayList<>(hm.values());
-        for (int i =0;i< l2.size();i++) {
+        System.out.println(l2);
+        /*for (int i =0;i< l2.size();i++) {
             System.out.println(l2.get(i));
-        }
+        }*/
 
 
     }
@@ -141,6 +140,16 @@ public class RS_Problems {
             c.add(s[i]);
         }
         System.out.println(c);
+    }
+    public static void reverseArrayWithoutTemp(){
+        char[] s={'a','b','c','d','e'};
+        char temp;
+        for (int i =0; i<s.length/2;i++){
+            temp = s[s.length-1-i];
+            s[s.length-1-i]= s[0+i];
+            s[0+i] = temp;
+        }
+        System.out.println(Arrays.toString(s));
     }
     public static void swapString(){
         String s1 ="kelvin", s2 ="victor", temp = null;

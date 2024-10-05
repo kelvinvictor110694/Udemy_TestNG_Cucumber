@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class Pavan_Problems_2 {
     public static void main(String[] args) {
-        reverseEachWordInString();
+        missingNo();
     }
     public static void checkArrayEqual (){
         int a1[] = {3,5,63,4,66};

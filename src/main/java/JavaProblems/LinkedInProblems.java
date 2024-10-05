@@ -231,7 +231,6 @@ public class LinkedInProblems {
                         count++;
                         //System.out.println(c[i]);
                     }
-
                 }
             }
             if (count>=1){
@@ -372,7 +371,7 @@ public class LinkedInProblems {
         Arrays.sort(a);
         System.out.println(Arrays.toString(a));
     }
-    public static void luckyInteger(){
+    public static void luckyInteger(){ //no and the no of occurance are same
         int[] a ={2,2,3,3,3,4};
         List li = new ArrayList<>();
         for (int i =0;i<a.length;i++){
