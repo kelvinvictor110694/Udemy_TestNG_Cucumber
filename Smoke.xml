@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="tests" thread-count="2">
+    <groups>
+        <run>
+            <include name="Smoke"/>
+        </run>
+    </groups>
+    <test name="Positive Workflow">
+        <classes>
+            <class name="Framework"/>
+        </classes>
+    </test>
+    <test name="Negative Workflow">
+        <classes>
+            <class name="IncorrectLogin"/>
+        </classes>
+    </test>
+</suite>
+
