@@ -1,0 +1,36 @@
+Index: src/main/java/org/example/string.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\n\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class string {\n\n    public static void main(String[] args) {\n        printStringvalue();\n        reverseStringexceptsecondchar();\n        replaceStringwithDollar();\n    }\n\n    public static void printStringvalue() {\n        String s = \"kelvin victor\";\n        String[] splitvalue = s.split(\" \");\n        for (int i = 0; i < splitvalue.length; i++) {\n            System.out.println(splitvalue[i]);\n        }\n        for (int i = s.length() - 1; i >= 0; i--) {\n            System.out.println(s.charAt(i));\n        }\n    }\n\n    public static void reverseStringexceptsecondchar() {\n        String s = \"Independance\";\n        String reverse = \"\";\n        reverse = reverse + s.charAt(s.length() - 1);\n        for (int i = s.length() - 3; i >= 1; i--) {\n            reverse = reverse + s.charAt(i);\n        }\n        reverse = reverse + s.charAt(s.length() - 2) + s.charAt(0);\n        System.out.println(reverse);\n    }\n\n    public static void replaceStringwithDollar() {\n        String s = \"Go to Joho\";\n        String remove = \"o\";\n        String replace = \"$\";\n        int count = 0;\n        StringBuilder sb = new StringBuilder();\n        for (int i = 0; i < s.length(); i++) {\n            if (Character.toString(s.charAt(i)).equals(remove)) {\n                count++;\n                for (int j = 0; j < count; j++) {\n                    sb.append(replace);\n                }\n            } else {\n                sb.append(s.charAt(i));\n            }\n        }\n        System.out.println(sb.toString());\n    }\n\n    \n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/string.java b/src/main/java/org/example/string.java
+--- a/src/main/java/org/example/string.java	
++++ b/src/main/java/org/example/string.java	
+@@ -33,24 +33,7 @@
+         System.out.println(reverse);
+     }
+ 
+-    public static void replaceStringwithDollar() {
+-        String s = "Go to Joho";
+-        String remove = "o";
+-        String replace = "$";
+-        int count = 0;
+-        StringBuilder sb = new StringBuilder();
+-        for (int i = 0; i < s.length(); i++) {
+-            if (Character.toString(s.charAt(i)).equals(remove)) {
+-                count++;
+-                for (int j = 0; j < count; j++) {
+-                    sb.append(replace);
+-                }
+-            } else {
+-                sb.append(s.charAt(i));
+-            }
+-        }
+-        System.out.println(sb.toString());
+-    }
++   
+ 
+     
+ }

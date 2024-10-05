@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b6746cb-1aa8-4c8b-93c7-2c4716f6e10d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_java_Udemy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaProblems/LinkedInProblems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaProblems/Pavan_Problems_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaProblems/Pavan_Problems_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaProblems/RS_Problems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Singleton/SingletonBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Singleton/SingletonMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/AbstractTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ExcelDataReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ExceluploadData$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/ExceluploadData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/InterfaceBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/InterfaceChild.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/BrokenLinks_Pavan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/BrowserNotification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Calander.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Leetcode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ParanthesisProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Pavan_youtube_problems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Problems080924.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Problems_26082024.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/RobotDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ShadowDOM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/WindowAuthentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/examples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-ExcelDataTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Amazon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CDP/CDPAuthentication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CDP/CDPMobileviewwithCDPCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CDP/CDPMockURL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CDP/CDPNetworkThrottle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CDP/CDPResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CDP/CDPwoMobileview.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CDP/GeoLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ExcelDataTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UploadDownload.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="version-1.1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2eXH6I4mTnYK0Fg6zHV8GsdZ83r" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Actions.executor": "Run",
+    "Application.Alerts.executor": "Debug",
+    "Application.Assignment1.executor": "Run",
+    "Application.Assignment2.executor": "Run",
+    "Application.Assignment3.executor": "Run",
+    "Application.Assignment4.executor": "Run",
+    "Application.Assignment5.executor": "Run",
+    "Application.Assignment6.executor": "Run",
+    "Application.Assignment7.executor": "Run",
+    "Application.Assignment8.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.BrokenLinks2.executor": "Run",
+    "Application.BrokenLinks_Pavan.executor": "Run",
+    "Application.Brokenlinks.executor": "Run",
+    "Application.BrowserNotification.executor": "Run",
+    "Application.CDP.executor": "Run",
+    "Application.CDPAuthentication.executor": "Run",
+    "Application.CDPMockURL.executor": "Run",
+    "Application.CDPNetworkThrottle.executor": "Run",
+    "Application.CDPResponse.executor": "Run",
+    "Application.CDPwoMobileview.executor": "Run",
+    "Application.Calandar.executor": "Run",
+    "Application.Calander.executor": "Run",
+    "Application.Child.executor": "Run",
+    "Application.Consecutivenumber.executor": "Run",
+    "Application.ContinousArray.executor": "Run",
+    "Application.ExcelDataReader.executor": "Run",
+    "Application.Filterjavastream.executor": "Run",
+    "Application.Fluentwait.executor": "Run",
+    "Application.Frames.executor": "Run",
+    "Application.GeoLocation.executor": "Run",
+    "Application.Greencart.executor": "Run",
+    "Application.Invokemultipletabs.executor": "Run",
+    "Application.Javastreams.executor": "Run",
+    "Application.Largestno.executor": "Run",
+    "Application.Linkclicks.executor": "Run",
+    "Application.LinkedInProblems.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ParanthesisProblem.executor": "Debug",
+    "Application.Pavan_Problems_1.executor": "Run",
+    "Application.Pavan_Problems_2.executor": "Run",
+    "Application.Pavan_youtube_problems.executor": "Run",
+    "Application.Plusone.executor": "Run",
+    "Application.Printinitialsname.executor": "Run",
+    "Application.Problems080924.executor": "Run",
+    "Application.Problems_26082024.executor": "Run",
+    "Application.RS_Problems.executor": "Debug",
+    "Application.ReadFile.executor": "Run",
+    "Application.Relativelocators.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
+    "Application.RobotDemo.executor": "Run",
+    "Application.Sakshi2.executor": "Run",
+    "Application.Screenshot.executor": "Run",
+    "Application.Scrolling.executor": "Run",
+    "Application.ShadowDOM.executor": "Run",
+    "Application.SingletonMain.executor": "Run",
+    "Application.Sslcertification.executor": "Run",
+    "Application.SwapNos.executor": "Run",
+    "Application.Tablesorting.executor": "Run",
+    "Application.TwoNumberstoAddTarget.executor": "Run",
+    "Application.UploadDownload.executor": "Run",
+    "Application.WindowAuthentication.executor": "Run",
+    "Application.Windowhandle.executor": "Debug",
+    "Application.arrays.executor": "Run",
+    "Application.dropdownlooping.executor": "Run",
+    "Application.dynamicdropdown.executor": "Run",
+    "Application.examples.executor": "Run",
+    "Application.palidromestring.executor": "Run",
+    "Application.selectdropdown.executor": "Run",
+    "Application.string.executor": "Run",
+    "Application.udemy.executor": "Run",
+    "Docker.resources/docker-compose.yaml.node-firefox: Compose Deployment.executor": "Run",
+    "Docker.resources/docker-compose.yaml: Compose Deployment.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG./Users/kelvinvictor/IdeaProjects/Selenium_Java_Udemy/E2E.xml.executor": "Run",
+    "TestNG./Users/kelvinvictor/IdeaProjects/Selenium_Java_Udemy/Smoke.xml.executor": "Run",
+    "TestNG./Users/kelvinvictor/IdeaProjects/Selenium_Java_Udemy/testng.xml.executor": "Run",
+    "TestNG./Users/kelvinvictor/IdeaProjects/Selenium_Java_Udemy/testngframework.xml.executor": "Run",
+    "TestNG.Amazon.driverSetup.executor": "Run",
+    "TestNG.Demo (1).executor": "Run",
+    "TestNG.Demo (2).executor": "Run",
+    "TestNG.Demo.Test2.executor": "Run",
+    "TestNG.Demo.executor": "Run",
+    "TestNG.Framework.addToCart.executor": "Run",
+    "TestNG.Framework.executor": "Debug",
+    "TestNG.Framework.login.executor": "Debug",
+    "TestNG.TestNGRunner.executor": "Run",
+    "TestNG.test.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kelvinvictor/IdeaProjects/Selenium_Java_Udemy",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Cucumber/Features" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.examples">
+    <configuration name="ParanthesisProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ParanthesisProblem" />
+      <module name="Selenium_java_Udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pavan_Problems_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProblems.Pavan_Problems_2" />
+      <module name="Selenium_java_Udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RS_Problems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProblems.RS_Problems" />
+      <module name="Selenium_java_Udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.examples" />
+      <module name="Selenium_java_Udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="resources/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="src/main/resources/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.examples" />
+        <item itemvalue="Application.Pavan_Problems_2" />
+        <item itemvalue="Application.RS_Problems" />
+        <item itemvalue="Application.ParanthesisProblem" />
+        <item itemvalue="Docker.resources/docker-compose.yaml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-3183f394aec4-96c0d24d" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b6746cb-1aa8-4c8b-93c7-2c4716f6e10d" name="Changes" comment="" />
+      <created>1712043827674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712043827674</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/org/example/Windowhandle.java" line="20">
+        <watch expression="childId" />
+      </inline-watch>
+    </watches-manager>
+  </component>
+</project>
